@@ -1,0 +1,84 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="90" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../components/proprietary_rf/esb/nrf_esb.h" useHWbreakpoint="false"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="usbd_cdc_acm_pca10056" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="usbd_cdc_acm_pca10056" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="usbd_cdc_acm_pca10056" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="usbd_cdc_acm_pca10056" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="usbd_cdc_acm_pca10056"/>
+  <ProjectSessionItem path="usbd_cdc_acm_pca10056;usbd_cdc_acm_pca10056"/>
+  <ProjectSessionItem path="usbd_cdc_acm_pca10056;usbd_cdc_acm_pca10056;Application"/>
+  <ProjectSessionItem path="usbd_cdc_acm_pca10056;usbd_cdc_acm_pca10056;nRF_Drivers"/>
+  <ProjectSessionItem path="usbd_cdc_acm_pca10056;usbd_cdc_acm_pca10056;nRF_Libraries"/>
+  <ProjectSessionItem path="usbd_cdc_acm_pca10056;usbd_cdc_acm_pca10056;nRF_Properitary_RF"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="usbd_cdc_acm_pca10056" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="usbd_cdc_acm_pca10056" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="usbd_cdc_acm_pca10056" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="usbd_cdc_acm_pca10056" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="561" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_05_25/nRF5_SDK_17.0.2_esb_tx/components/proprietary_rf/esb/nrf_esb.c" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="527" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="3474" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="3467" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="50" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/hardfault/nrf52/handler/hardfault_handler_gcc.c" selected="0" top="36" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="1324" useTextEdit="1" openedFrom="C:/nRF5 sdk/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/usbd/app_usbd.c" selected="0" top="1301" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="324" useTextEdit="1" openedFrom="C:/nRF5 sdk/nRF5_SDK_17.0.2_esb_tx/components/libraries/usbd/app_usbd.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/usbd/app_usbd.h" selected="0" top="301" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="54" useTextEdit="1" openedFrom="C:/nRF5 sdk/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/delay/nrf_delay.h" selected="0" top="31" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="75" y="191" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_3_17/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/log/nrf_log.h" selected="0" top="168" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="200" useTextEdit="1" openedFrom="C:/nRF5 sdk/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/usbd/app_usbd_string_desc.h" selected="0" top="177" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="41" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_05_25/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.66/include/stdint.h" selected="0" top="41" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="41" y="64" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_05_25/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_usbd.h" selected="0" top="41" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="24" y="60" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_05_25/nRF5_SDK_17.0.2_esb_tx/integration/nrfx/legacy/nrf_drv_usbd.h" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/include/nrfx_usbd.h" selected="0" top="29" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="368" useTextEdit="1" openedFrom="C:/nRF5 sdk/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.66/include/stdlib.h" selected="0" top="345" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="523" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_3_17/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/timer/app_timer2.c" selected="0" top="512" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="228" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_3_17/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_clock.c" selected="0" top="176" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="158" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_3_17/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/sdk_errors.h" selected="0" top="132" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="926" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_05_25/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/usbd/class/cdc/acm/app_usbd_cdc_acm.c" selected="0" top="914" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="37" y="238" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_05_25/nRF5_SDK_17.0.2_esb_tx/components/libraries/usbd/class/cdc/acm/app_usbd_cdc_acm.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/usbd/class/cdc/acm/app_usbd_cdc_acm.h" selected="0" top="217" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="352" useTextEdit="1" openedFrom="C:/nRF5 sdk/2023_07_05/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/proprietary_rf/esb/nrf_esb.h" selected="0" top="324" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="29" y="715" useTextEdit="1" openedFrom="C:/nRF5 sdk/2023_07_05/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/proprietary_rf/esb/nrf_esb.c" selected="1" top="664" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="70" useTextEdit="1" openedFrom="C:/nRF5 sdk/2022_3_17/nRF5_SDK_17.0.2_esb_tx/examples/peripheral/usbd_cdc_acm/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/usbd/app_usbd_serial_num.c" selected="0" top="44" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="usbd_cdc_acm_pca10056" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
