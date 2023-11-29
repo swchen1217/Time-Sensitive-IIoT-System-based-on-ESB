@@ -224,10 +224,31 @@ static void cdc_acm_user_ev_handler(app_usbd_class_inst_t const *p_inst,
           switch(type){
             case CDC_ACM_DATA:{
 
-                memcpy(&seq_num,&m_tx_buffer[2],sizeof(uint32_t));
-                memcpy(cdc_acm_data,&m_tx_buffer[6],val_len - sizeof(uint32_t));
-                size_t size = sprintf(m_test_buffer,"%d,%s\n",seq_num,cdc_acm_data); 
+                NRF_LOG_INFO("USBD CDC ACM RX.");
+
+                urllc_payload urllc_pkt;
+                urllc_pkt.header.message_id = URLLC_DATA_PKT;
+                memcpy(&urllc_pkt.seq_num,&m_tx_buffer[2],sizeof(uint32_t));
+                memcpy(&urllc_pkt.data,&m_tx_buffer[6],val_len - sizeof(uint32_t));
+                size_t size = sprintf(m_test_buffer,"%d,%s\n",urllc_pkt.seq_num,urllc_pkt.data); 
                 app_usbd_cdc_acm_write(&m_app_cdc_acm, m_test_buffer,size);
+                urllc_pkt.time_stamp = TIME_SYNC_TIMESTAMP_TO_USEC(ts_timestamp_get_ticks_u64());
+
+                tx_payload.noack = false;
+                tx_payload.length = sizeof(urllc_pkt);
+                nrf_esb_set_retransmit_count(5);
+                //current counter val + 0.5sec is the ch_tick_target             
+                memcpy(tx_payload.data,&urllc_pkt,sizeof(urllc_pkt));
+
+                if (nrf_esb_write_payload(&tx_payload) == NRF_SUCCESS) {
+                      
+                      NRF_LOG_INFO("Sending channel map update pkt succeed");
+                      bsp_board_led_invert(LED_CDC_ACM_RX);
+                  }
+                  else {
+                      NRF_LOG_WARNING("Sending packet failed");
+                  }
+
                 index = 0;
        
             }

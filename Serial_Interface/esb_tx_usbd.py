@@ -12,10 +12,12 @@ import chn_map_process as cmp
 
 CDC_ACM_DATA = 0
 CDC_ACM_CHN_UPDATE = 1
-URLLC_DATA_INTERVAL = 0.1                   #sleep URLLC_DATA_INTERVAL(seconds) between sending data(sync or urllc) to comport 
+URLLC_DATA_INTERVAL = 0.1                   #sleep URLLC_DATA_INTERVAL(seconds) between sending data(sync or urllc) to comport
 CHA_MAP_UPDATE_INTERVAL = 2
 CHN_MAP_UPDATE_OFFSET   = 0.2
 CDC_ACM_DATA_MAX_SIZE = 256                 #maximum data bytes that can tranfer each time 
+
+
 
 com_list = ['com12']
 #com_list = ['com10','com16']
@@ -111,11 +113,11 @@ def generate_cdc_acm_data():
 
 def main():
     
-    chn_update_thread = threading.Thread(target=update_chn_map)
-    chn_update_thread.start()
+    # chn_update_thread = threading.Thread(target=update_chn_map)
+    # chn_update_thread.start()
     com_port_init()
-    cmp.open_qos_device()
-    #generate_cdc_acm_data()
+    # cmp.open_qos_device()
+    generate_cdc_acm_data()
     
 if __name__ =='__main__':
     main() 

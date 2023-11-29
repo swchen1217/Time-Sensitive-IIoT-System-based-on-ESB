@@ -336,7 +336,7 @@ void nrf_esb_event_handler(nrf_esb_evt_t const * p_event)
                       uint32_t latency = ts_local - ts_peer;      
                       //size_t size = sprintf(m_tx_buffer,"%d,%d,%s",r_data->seq_num,latency,r_data->data);
                       //size_t size = sprintf(m_tx_buffer,"%d,%d",r_data->seq_num,latency);
-                      size_t size = sprintf(m_tx_buffer,"%u,%d,%d\n",r_data->seq_num,latency,strlen(r_data->data));
+                      size_t size = sprintf(m_tx_buffer,"%u,%d,%s\r\n",r_data->seq_num,latency,r_data->data);
                       //memcpy(m_tx_buffer + size, r_data->data, strlen(r_data->data));
                       //m_tx_buffer[size+strlen(r_data->data)] = '\0';
                       //m_tx_buffer[size+strlen(r_data->data)+1] = '\n';
@@ -375,8 +375,8 @@ uint32_t esb_init( void )
 {
     uint32_t err_code;
     uint8_t base_addr_0[4] = {0xF8, 0xF8, 0xF8, 0xF8};
-    uint8_t base_addr_1[4] = {0xC2, 0xC2, 0xC2, 0xC2};
-    uint8_t addr_prefix[8] = {0xE7, 0xC2, 0xC3, 0xC4, 0xC5, 0xC6, 0xC7, 0xC8 };
+    uint8_t base_addr_1[4] = {0xC4, 0xC4, 0xC4, 0xC4};
+    uint8_t addr_prefix[8] = {0xE7, 0xC2, 0xC6, 0xC4, 0xC5, 0xC6, 0xC7, 0xC8 };
     nrf_esb_config_t nrf_esb_config         = NRF_ESB_DEFAULT_CONFIG;
     nrf_esb_config.payload_length           = 8;
     nrf_esb_config.protocol                 = NRF_ESB_PROTOCOL_ESB_DPL;
@@ -569,7 +569,7 @@ int main(void)
     APP_ERROR_CHECK(err_code);
 
     NRF_LOG_DEBUG("Enhanced ShockBurst Receiver Example started.");
-    printf("Enhanced ShockBurst Receiver Example started\n.");
+    //printf("Enhanced ShockBurst Receiver Example started\n.");
     
     err_code = nrf_esb_start_rx();
     APP_ERROR_CHECK(err_code);
